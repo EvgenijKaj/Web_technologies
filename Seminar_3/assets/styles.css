@@ -1,0 +1,21 @@
+.button {
+    width: 100px;
+    height: 70px;
+    color: rgb(190, 40, 14);
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fire {
+    color: rgb(0, 255, 13);
+}
