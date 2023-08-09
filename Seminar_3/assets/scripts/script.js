@@ -1,21 +1,21 @@
-// let name = prompt("Введите имя "); 
-// alert('Привет, ' + name);
+let name = prompt("Введите имя "); 
+alert('Привет, ' + name);
 
-// let age = parseInt(prompt("Введите возраст "));
+let age = parseInt(prompt("Введите возраст "));
 
-// switch(age) {
-//     case 18:
-//         alert("Уже совершеннолетний.");
-//         break;
-//     case 30:
-//         alert('Завтра на работу');
-//         break;
-//     case 5:
-//         alert('Слишком молод');
-//         break;
-//     default:
-//         alert('Такого в списке нет')
-// }
+switch(age) {
+    case 18:
+        alert("Уже совершеннолетний.");
+        break;
+    case 30:
+        alert('Завтра на работу');
+        break;
+    case 5:
+        alert('Слишком молод');
+        break;
+    default:
+        alert('Такого в списке нет')
+}
 
 
 function changedColor() {
